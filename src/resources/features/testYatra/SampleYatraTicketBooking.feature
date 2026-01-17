@@ -10,4 +10,5 @@ Feature: Ticket Booking
   Scenario: Ticket Booking Yatra Sample Arun
     Given Soniya login in yatra website Sample Arun
     When she buys a ticket Sample Arun
-    Then she receives a ticket confirmation Sample Arun
+    And she receives a ticket confirmation Sample Arun
+    Then she confirms booking status Done
